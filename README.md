@@ -1,15 +1,4 @@
 
-To build a local debug version of the Hermes CLI tools the following steps should get you started on macOS/Linux:
-
-```shell
-mkdir hermes_workingdir
-cd hermes_workingdir
-git clone https://github.com/facebook/hermes.git
-cmake -S hermes -B build -G Ninja
-cmake --build ./build
-```
-
-Or if you're using Windows, the following should get you going in a Git Bash shell:
 
 ```shell
 mkdir hermes_workingdir
