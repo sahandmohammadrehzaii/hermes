@@ -1,16 +1,4 @@
-
-
-```shell
-mkdir hermes_workingdir
-cd hermes_workingdir
-git -c core.autocrlf=false clone https://github.com/facebook/hermes.git
-cmake -S hermes -B build -G 'Visual Studio 16 2019' -A x64
-cmake --build ./build
-```
-
-You will now be in a directory with the output of building Hermes into CLI tools. From here you can run a piece of JavaScript as follows:
-
-```shell
+\
 echo "'use strict'; function hello() { print('Hello World'); } hello();" | ./bin/hermes
 ```
 
